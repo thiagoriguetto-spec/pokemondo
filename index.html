@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokemondo</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- CABEÇALHO: logo + menu de navegação -->
+    <header class="topo" id="topo">
+        <a class="logo" href="#topo">
+            <img src="img/pokebola.jpg"
+                 alt="Logotipo do Pokemondo">
+            Pokemondo
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#topo">Início</a></li>
+                <li><a href="#destaque">Destaques</a></li>
+                <li><a href="#pokedex">Pokedéx</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- inicio: introduçao-->
+        <section class="hero">
+            <h1>Mergulhe no Universo Pokemon!!!</h1>
+            <p>A <strong>Pokemondo</strong> te mostra TCG Cards em destaque, seus Pokemons favoritos na Pokedéx tudo com qualidade, para sua interação ser a melhor possível </p>
+            <a class="botao" href="#Detaques">Confira os Cards em Destaque!</a>
+        </section>
+
+        <!-- destaque:  4 imagens  de tcg cards-->
+        <section class="secao" id="destaques">
+            <h2></h2>
+            <div class="grade limpa">
+                <article class="card">
+                    <img src="img/pikachutcg.jpg"
+                         alt="Card de Pokemon Pikachu">
+                    <h3>Pikachu TCG Card</h3>
+                    <p>200 de HP e 120 de poder no ataque principal. </p>
+                </article>
+                <article class="card">
+                    <img src="img/rayquazatcg.jpg"
+                         alt="Card de Pokemon Rayquaza">
+                    <h3>Rayquaza TCG Card</h3>
+                    <p>280 de HP e 140 de poder no ataque principal.</p>
+                </article>
+                <article class="card">
+                    <img src="img/lugiatcg.jpg"
+                         alt="Card de Pokemon Lugia">
+                    <h3>Lugia TCG Card</h3>
+                    <p>280 de HP e 220 de poder no ataque principal</p>
+                </article>
+                <article class="card">
+                    <img src="img/lucariotcg.jpg"
+                         alt="Card de Pokemon Lucario">
+                    <h3>Lucario TCG Card</h3>
+                    <p>220 de HP e 140 de poder no ataque principal</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Pokedéx: imagens dos pokemons -->
+        <section class="secao" id="pokedex">
+            <h2>Sua Pokedéx</h2>
+            <div class="pokedex">
+                <article class="pikachu">
+                    <h3>Pikachu</h3>
+                   <img src="img/pikachu.jpg">
+                </article>
+                <article class="bulbassaur">
+                    <h3>Bulbassaur</h3>
+                    <img src="img/bulbassaur.jpg">
+                </article>
+                <article class="charizard">
+                    <h3>Charizard</h3>
+                    <img src="img/charizard.jpg">
+                </article>
+                  <article class="squirtle">
+                    <h3>Squirtle</h3>
+                    <img src="img/squirtle.jpg">
+                </article>
+                  <article class="abra">
+                    <h3>Abra</h3>
+                    <img src="img/abra.jpg">
+                </article>
+                  <article class="greninja">
+                    <h3>Greninja</h3>
+                    <img src="img/greninja.jpg">
+                </article>
+                  <article class="gengar">
+                    <h3>Gengar</h3>
+                    <img src="img/gengar.jpg">
+                </article>
+                  <article class="mewtwo">
+                    <h3>Mewtwo</h3>
+                    <img src="img/mewtwo.jpg">
+                </article>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- sobre : informaçoes cobre a pagina-->
+        <section class="sobre">
+            <h1>Sobre a Pokemondo</h1>
+            <h3><p>
+                A <strong>Pokemondo</strong> é um site criado para os fãs do universo Pokémon. Aqui você pode conhecer alguns dos Pokémon mais <i>conhecidos</i>, principalmente os Pokémon <i>iniciais</i> de diferentes regiões, além de conferir alguns <i>cards de TCG</i> e descobrir curiosidades sobre esse mundo.
+                Nosso objetivo é reunir informações de uma forma simples e divertida, ajudando os fãs a <strong>conhecerem melhor</strong> seus Pokémon favoritos, suas características, tipos e histórias.
+                Explore o Pokemondo, descubra novos Pokémon e <strong>venha fazer parte dessa aventura!</strong>
+            </p></h3>
+        </section>
+
+    <!-- RODAPÉ: localização, horário e contato -->
+    <footer id="contato">
+        <p>Rua das flores, 456 - Centro, Valentim Gentil - SP</p>
+        <p>Segunda a sexta, das 8h às 14h</p>
+        <p>contato@pokemondooficial.com.br</p>
+        <p>&copy; 2026 Pokemondo</p>
+    </footer>
 </body>
 </html>
+    
