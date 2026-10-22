@@ -151,7 +151,22 @@ a {
     background-color: #ffffff;
     border-radius: 12px;
 }
-
+.card.popular {
+ border: 3px solid #ac2f01;
+}
+.destaque {
+   position: absolute;
+   top: -16px;
+   left: 50%;
+   transform: translateX(-50%);
+   white-space: nowrap;
+   padding: 6px 14px;
+   border-radius: 18px;
+   background-color: #ac2f01;
+   color: #84b7ed;
+   font-size: 14px;
+   font-weight: bold;
+}
 .card img {
     display: block;
     width: 130px;
